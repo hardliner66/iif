@@ -4,3 +4,10 @@ macro_rules! iif {
         if $check { $true_case } else { $false_case }
     };
 }
+
+#[macro_export]
+macro_rules! iif_opt {
+    ( $check:expr, $true_case:expr ) => {
+        if $check { Some($true_case) } else { None }
+    };
+}
