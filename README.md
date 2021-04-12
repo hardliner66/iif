@@ -7,6 +7,8 @@ Returns one of two parts, depending on the evaluation of an expression.
 ## Example
 
 ```rust
+use iif::iif;
+
 let active = true;
 let active_text = iif!(active, "Active", "Inactive")
 ```
