@@ -2,6 +2,8 @@
 
 Returns one of two parts, depending on the evaluation of an expression.
 
+_Straight form the days of VBA programming, now available in rust!_
+
 [![Crates.io](https://img.shields.io/crates/v/iif)](https://crates.io/crates/iif)
 
 ## Examples
